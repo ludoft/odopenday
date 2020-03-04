@@ -1,6 +1,6 @@
 # odopenday
 
-Open day notebook Docker image.
+ATLAS Open Data Jupyter Notebook Docker Image for the Oxford open day.
 
 Add any files you want in the home directory of `jovyan` to this directory.
 
