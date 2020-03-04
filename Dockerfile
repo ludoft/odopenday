@@ -3,7 +3,7 @@
 ARG BASE_CONTAINER=jupyter/minimal-notebook
 FROM $BASE_CONTAINER
 
-LABEL maintainer="Jupyter Project <jupyter@googlegroups.com>"
+LABEL maintainer="Ludo Fraser-Taliente"
 
 USER root
 
