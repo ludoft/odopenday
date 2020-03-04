@@ -1,0 +1,27 @@
+11:13:20   139 Wrk-0.1 | Info in <TProofServLite::Setup>: fWorkDir: /home/jovyan/.proof
+11:13:20   139 Wrk-0.1 | Info in <TProofServLite::SetupCommon>:  0 global package directories registered
+11:13:30   139 Wrk-0.1 | Info in <TProofServLite::HandleProcess>: calling fPlayer->Process() with selector name: HZZAnalysis.C+
+11:13:30   139 Wrk-0.1 | Info in <TProofPlayerSlave::AssertSelector>: Processing via filename (HZZAnalysis.C+)
+11:13:30   139 Wrk-0.1 | Info in <TEventIter::TEventIter>: fPackets list 'ProcessedPackets_0.1' created
+11:13:30   139 Wrk-0.1 | Info in <TProofPlayerSlave::Process>: save partial results? 0  per-packet? 0
+11:13:30   139 Wrk-0.1 | SvcMsg in <TProofPlayerSlave::CheckMemUsage>: Memory 531936 virtual 376944 resident event 0
+11:13:37   139 Wrk-0.1 | SvcMsg in <TProofPlayerSlave::CheckMemUsage>: Memory 964276 virtual 383424 resident event 296
+Starting analysis with process option: data 
+11:13:39   139 Wrk-0.1 | Info in <TProofServLite::HandleProcess>: calling fPlayer->Process() with selector name: HZZAnalysis.C+
+11:13:39   139 Wrk-0.1 | Info in <ACLiC>: unmodified script has already been compiled and loaded
+11:13:39   139 Wrk-0.1 | Info in <TProofPlayerSlave::AssertSelector>: Processing via filename (HZZAnalysis.C+)
+11:13:39   139 Wrk-0.1 | Info in <TEventIter::TEventIter>: fPackets list 'ProcessedPackets_0.1' created
+11:13:39   139 Wrk-0.1 | Info in <TProofPlayerSlave::Process>: save partial results? 0  per-packet? 0
+11:13:39   139 Wrk-0.1 | SvcMsg in <TProofPlayerSlave::CheckMemUsage>: Memory 702500 virtual 382792 resident event 0
+11:13:40   139 Wrk-0.1 | SvcMsg in <TProofPlayerSlave::CheckMemUsage>: Memory 702500 virtual 383864 resident event 248
+Starting analysis with process option: ZqqZll 
+11:13:45   139 Wrk-0.1 | Info in <TProofServLite::HandleProcess>: calling fPlayer->Process() with selector name: HZZAnalysis.C+
+11:13:45   139 Wrk-0.1 | Info in <ACLiC>: unmodified script has already been compiled and loaded
+11:13:45   139 Wrk-0.1 | Info in <TProofPlayerSlave::AssertSelector>: Processing via filename (HZZAnalysis.C+)
+11:13:45   139 Wrk-0.1 | Info in <TEventIter::TEventIter>: fPackets list 'ProcessedPackets_0.1' created
+11:13:45   139 Wrk-0.1 | Info in <TProofPlayerSlave::Process>: save partial results? 0  per-packet? 0
+11:13:45   139 Wrk-0.1 | SvcMsg in <TProofPlayerSlave::CheckMemUsage>: Memory 702500 virtual 383864 resident event 0
+11:13:52   139 Wrk-0.1 | Info in <TEventIterTree::GetTrees>: the tree cache is in learning phase
+11:14:08   139 Wrk-0.1 | Info in <TProofServLite::RestartComputeTime>: compute time restarted after 23.038836 secs (100 entries)
+Starting analysis with process option: WqqZll 
+Analysed a total of: -1717950000 events out of 1316619 in this sample
