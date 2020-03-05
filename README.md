@@ -8,7 +8,9 @@ Add any files you want in the home directory of `jovyan` to this directory.
 
 `docker run -it --rm --user $(id -u):$(id -g) --group-add users -p 8888:8888 odnbdock`
 
-Add `-v "$(pwd)":/home/jovyan` if you want access to the working directory.
+Add `-v "$(pwd)":/home/jovyan` if you want access to the working directory:
+
+`docker run -it --rm --user $(id -u):$(id -g) --group-add users -v "$(pwd)":/home/jovyan -p 8888:8888 odnbdock`
 
 Make sure the ports are correct. Add --rm to delete after each time.
 
