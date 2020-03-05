@@ -81,4 +81,8 @@ ENV XDG_CACHE_HOME /home/$NB_USER/.cache/
 RUN MPLBACKEND=Agg python -c "import matplotlib.pyplot" && \
     fix-permissions /home/$NB_USER
 
+# Fix JSRoot
+# It can't find the JSRoot files so we run this
+RUN echo "c.NotebookApp.extra_static_paths = ['/opt/conda/js/']" > ~/.jupyter/jupyter_notebook_config.py
+
 USER $NB_UID

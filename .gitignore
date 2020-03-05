@@ -1,3 +1,5 @@
 git_repos/*
 .*
 !/.gitignore
+*.root
+notebooks-collection-opendata
